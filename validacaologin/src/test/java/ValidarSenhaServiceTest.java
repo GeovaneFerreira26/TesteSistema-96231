@@ -1,4 +1,4 @@
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import projeto.login.ValidarNome;
 import projeto.login.ValidarSenha;
 import projeto.login.ValidarEmail;
