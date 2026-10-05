@@ -5,6 +5,9 @@ public class ValidarSenha {
         if (senha == null || senha.isBlank()) {
             return false;
         }
+        if (senha.matches(".*\\s.*")) {
+            return false;
+        }
         if (senha.length() < 10 || senha.length() > 12) {
             return false;
         }

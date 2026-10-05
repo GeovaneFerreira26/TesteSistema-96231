@@ -9,7 +9,7 @@ public class ValidarSenhaServiceTest {
     private ValidarSenha service = new ValidarSenha();
     @Test
     public void deveAceitarSenhaValida() {
-        String senha = "Querty$199";
+        String senha = "1234567890D@";
         boolean resultado =  service.validarSenha(senha);
         assertTrue(resultado);
     }

@@ -6,7 +6,7 @@ public class ValidarEmail {
             return false;
         }
         boolean possuiarrouba =
-                email.matches(".*[ @ ].*");
+                email.matches(".*[@].*");
         return possuiarrouba;
     }
 
